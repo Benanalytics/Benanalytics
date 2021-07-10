@@ -1,0 +1,18 @@
+.gantt-container {
+  height: 450px;
+}
+.radio-label {
+  padding:6px;
+  text-align:center;
+  width:70px;
+  margin-right:8px;
+  border:1px solid gray;
+  border-radius: 5px;
+  cursor:pointer;
+}
+.radio-label>input{
+  display: none
+}
+.radio-label-active{
+  background:palegreen;
+}

@@ -1,0 +1,479 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:300,400,400i,600,700');
+@import './_01_mixins.scss';
+@import './_02_variables';
+@import './_03_core.scss';
+@import './_04_plugins.scss';
+@import './_05_views.scss';
+@import './custom.scss';
+@import './map.scss';
+
+/** your custom css code **/
+.portfoliokey-piechart {
+  .CircularProgressbar-trail {
+    stroke: #444248;
+  }
+  .CircularProgressbar-path {
+    stroke: #7eacef;
+  }
+}
+.btn {
+  border-radius: 0 !important;
+}
+body {
+  font-family: 'Nunito', sans-serif !important;
+}
+.btn-outline-success {
+  border: none !important;
+  color: #008ffb !important;
+}
+.btn-outline-success:hover {
+  background-color: #008ffb !important;
+  color: white !important;
+}
+
+.btn-outline-info {
+  border: none !important;
+  color: #00e396 !important;
+}
+.btn-outline-info:hover {
+  background-color: #00e396 !important;
+  color: white !important;
+}
+
+.btn-outline-danger {
+  border: none !important;
+  color: #feb019 !important;
+}
+.btn-outline-danger:hover {
+  background-color: #feb019 !important;
+  color: white !important;
+}
+
+.btn-outline-primary {
+  border: none !important;
+  color: #ff4560 !important;
+}
+.btn-outline-primary:hover {
+  background-color: #ff4560 !important;
+  color: white !important;
+}
+
+.offtrack {
+  background: #ffbb00 !important;
+}
+.ontrack {
+  background: #3e681c !important;
+}
+
+.atrisk {
+  background: #fb6442 !important;
+}
+
+.gantt-container {
+  height: 100%;
+}
+
+// progresss bar for word cloud
+.progress {
+  height: 8px !important;
+}
+
+// Portfoliohelthflaggedtypechart
+#container {
+  height: 600px;
+}
+
+.highcharts-figure,
+.highcharts-data-table table {
+  min-width: 320px;
+  max-width: 800px;
+  margin: 1em auto;
+}
+
+.highcharts-data-table table {
+  font-family: Verdana, sans-serif;
+  border-collapse: collapse;
+  border: 1px solid #ebebeb;
+  margin: 10px auto;
+  text-align: center;
+  width: 100%;
+  max-width: 500px;
+}
+.highcharts-data-table caption {
+  padding: 1em 0;
+  font-size: 1.2em;
+  color: #555;
+}
+.highcharts-data-table th {
+  font-weight: 600;
+  padding: 0.5em;
+}
+.highcharts-data-table td,
+.highcharts-data-table th,
+.highcharts-data-table caption {
+  padding: 0.5em;
+}
+.highcharts-data-table thead tr,
+.highcharts-data-table tr:nth-child(even) {
+  background: #f8f8f8;
+}
+.highcharts-data-table tr:hover {
+  background: #f1f7ff;
+}
+
+.ld-label {
+  width: 200px;
+  display: inline-block;
+}
+
+.ld-url-input {
+  width: 500px;
+}
+
+.ld-time-input {
+  width: 40px;
+}
+
+td {
+  overflow: inherit !important;
+}
+
+// asdf
+#container {
+  height: 600px;
+}
+
+.highcharts-figure,
+.highcharts-data-table table {
+  min-width: 320px;
+  max-width: 800px;
+  margin: 1em auto;
+}
+
+.highcharts-data-table table {
+  font-family: Verdana, sans-serif;
+  border-collapse: collapse;
+  border: 1px solid #ebebeb;
+  margin: 10px auto;
+  text-align: center;
+  width: 100%;
+  max-width: 500px;
+}
+.highcharts-data-table caption {
+  padding: 1em 0;
+  font-size: 1.2em;
+  color: #555;
+}
+.highcharts-data-table th {
+  font-weight: 600;
+  padding: 0.5em;
+}
+.highcharts-data-table td,
+.highcharts-data-table th,
+.highcharts-data-table caption {
+  padding: 0.5em;
+}
+.highcharts-data-table thead tr,
+.highcharts-data-table tr:nth-child(even) {
+  background: #f8f8f8;
+}
+.highcharts-data-table tr:hover {
+  background: #f1f7ff;
+}
+
+.ld-label {
+  width: 200px;
+  display: inline-block;
+}
+
+.ld-url-input {
+  width: 500px;
+}
+
+.ld-time-input {
+  width: 40px;
+}
+
+.highcharts-axis-title {
+  display: none !important;
+}
+.missionChart {
+  .highcharts-grid-line {
+    display: none !important;
+  }
+}
+
+.missionChartTwo {
+  .highcharts-grid-line {
+    display: none !important;
+  }
+}
+.termreporttwo {
+  .highcharts-grid-line {
+    display: none !important;
+  }
+}
+
+.termreportone {
+  .highcharts-grid-line {
+    display: none !important;
+  }
+}
+.lending {
+  .highcharts-grid-line {
+    display: none !important;
+  }
+}
+.LendingOne {
+  .highcharts-grid-line {
+    display: none !important;
+  }
+}
+.LendingTwo {
+  .highcharts-grid-line {
+    display: none !important;
+  }
+}
+.statechart {
+  .highcharts-grid-line {
+    display: none !important;
+  }
+}
+.GeoZoneChart {
+  .highcharts-grid-line {
+    display: none !important;
+  }
+}
+
+.multicolor-bar {
+  margin: 20px 20%;
+}
+
+.multicolor-bar .values .value {
+  float: left;
+  text-align: center;
+}
+
+.multicolor-bar .scale .graduation {
+  float: left;
+  text-align: center;
+}
+
+.multicolor-bar .bars .bar {
+  float: left;
+  height: 10px;
+}
+
+.multicolor-bar .bars div.bar:first-of-type {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.multicolor-bar .bars div.bar:last-of-type {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.multicolor-bar .legends {
+  text-align: center;
+}
+
+.multicolor-bar .legends .legend {
+  display: inline-block;
+  margin: 0 5px;
+  text-align: center;
+}
+
+.multicolor-bar .legends .legend .dot {
+  font-size: 25px;
+  vertical-align: middle;
+}
+
+.multicolor-bar .legends .legend .label {
+  margin-left: 2px;
+  vertical-align: middle;
+}
+
+.multicolor-bar {
+  .values {
+    display: none;
+  }
+  .scale {
+    display: none;
+  }
+}
+
+.w-95 {
+  width: 95% !important;
+}
+.w-35 {
+  width: 95% !important;
+}
+
+.remove-y {
+  .highcharts-yaxis-labels {
+    display: none !important;
+  }
+}
+.highcharts-credits {
+  display: none !important;
+}
+
+// table   style
+
+.ytDefault {
+  background-color: #2e8cff;
+}
+.ytDanger {
+  background-color: #ff0000;
+}
+.ytSuccess {
+  background-color: #92d050;
+}
+.ytWarning {
+  background-color: #ffc000;
+}
+.complexregoin {
+  .active {
+    color: #922c88 !important;
+    font-weight: 700 !important;
+    background: transparent !important;
+    border-bottom: 3px solid !important;
+    border-radius: 0 !important;
+  }
+}
+
+.icon-row-item {
+  border-right: 1px solid lightgrey !important;
+}
+.icon-row-item:last-child {
+  border: none !important;
+}
+
+.team-board-row {
+  cursor: pointer;
+  position: relative;
+  .user-board {
+    z-index: 9999;
+    position: absolute;
+    bottom: 15px;
+    width: 350px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+  }
+}
+
+.team-board-row:hover .user-board {
+  transition: 0.5s;
+  display: block;
+}
+
+//
+.portfolioKayDetails {
+  background: #ededed;
+  padding: 10px;
+  margin-top: 30px;
+  border-radius: 5px;
+}
+
+.portfolioKayDetailsHeader {
+  border-bottom: 1px solid #7777774f;
+  margin-bottom: 20px;
+  position: relative;
+
+  font-family: 'simple-line-icons';
+  font-weight: 700;
+}
+.rsb {
+  position: absolute;
+  width: 2px;
+  height: 50px;
+  background-color: #7777774f;
+  right: 0;
+  z-index: 99;
+}
+.row-details {
+  h3 {
+    font-weight: 700;
+    font-family: 'simple-line-icons';
+  }
+  h4 {
+    font-weight: 700;
+    font-family: 'simple-line-icons';
+  }
+}
+.alert-custom {
+  background-color: #21c36a !important;
+  color: white !important;
+}
+.age-group-chart {
+  position: relative;
+  p {
+    bottom: 150px;
+    position: absolute !important;
+    transform: rotate(-90deg);
+    left: -40px;
+  }
+  .bl-text {
+    position: absolute;
+    font-size: 16px;
+    font-weight: 700;
+    top: 50%;
+    left: 0;
+    color: #262626;
+    transform: translate(0, -50%);
+  }
+
+  .sky-text {
+    position: absolute;
+    font-size: 16px;
+    font-weight: 700;
+    top: 50%;
+    right: 0;
+    color: #21c36a;
+    transform: translate(0, -50%);
+  }
+}
+.portfolio-score {
+  .CircularProgressbar-trail {
+    stroke: #262626;
+  }
+  .CircularProgressbar-path {
+    stroke: #21c36a;
+  }
+  .CircularProgressbar-text {
+    font-size: 10px !important;
+  }
+}
+
+.single-details {
+  background: #cff7e1;
+  padding: 8px 0;
+  font-weight: 700;
+  color: black;
+
+  h2 {
+    line-height: 2;
+  }
+  .left-icon-holder {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #00e396;
+    color: white;
+    span {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 20px;
+    }
+  }
+}
+
+.suport-item {
+  padding: 10px 5px;
+  background: #80808070;
+}

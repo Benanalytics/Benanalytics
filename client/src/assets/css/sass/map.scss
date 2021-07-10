@@ -1,0 +1,342 @@
+// React leaflet
+
+.leaflet-container {
+    width: 100%;
+    height: 500px;
+}
+.leaflet-div-icon {
+    background: transparent;
+    border: none;
+}
+
+.leaflet-control-attribution {
+    display: none;
+}
+
+// map footer
+.map-status-bar {
+    background: #00cc882c;
+    padding: 20px 0;
+}
+
+// map details
+.map-details {
+    .progress {
+        border-radius: 0px !important;
+    }
+    .single-state-chart {
+        p {
+            font-size: 16px;
+            font-weight: 600;
+        }
+        border-bottom: 2px solid transparent;
+    }
+    .single-state-chart:hover {
+        p {
+            color: #00cc87;
+        }
+        border-bottom: 2px solid #00cc87;
+    }
+    // Progress bar
+
+    .w-1 {
+        background-color: #1f9ddb !important;
+    }
+    .w-2 {
+        background-color: #1f9ddb !important;
+    }
+    .w-3 {
+        background-color: #1f9ddb !important;
+    }
+    .w-4 {
+        background-color: #1f9ddb !important;
+    }
+    .w-5 {
+        background-color: #1f9ddb !important;
+    }
+    .w-6 {
+        background-color: #1f9ddb !important;
+    }
+    .w-7 {
+        background-color: #1f9ddb !important;
+    }
+    .w-8 {
+        background-color: #1f9ddb !important;
+    }
+    .w-9 {
+        background-color: #1f9ddb !important;
+    }
+    .w-10 {
+        background-color: #1f9ddb !important;
+    }
+    .w-11 {
+        background-color: #1f9ddb !important;
+    }
+    .w-12 {
+        background-color: #1f9ddb !important;
+    }
+    .w-13 {
+        background-color: #1f9ddb !important;
+    }
+    .w-14 {
+        background-color: #1f9ddb !important;
+    }
+    .w-15 {
+        background-color: #1f9ddb !important;
+    }
+    .w-16 {
+        background-color: #1f9ddb !important;
+    }
+    .w-17 {
+        background-color: #1f9ddb !important;
+    }
+    .w-18 {
+        background-color: #1f9ddb !important;
+    }
+    .w-19 {
+        background-color: #1f9ddb !important;
+    }
+    .w-20 {
+        background-color: #1f9ddb !important;
+    }
+    .w-21 {
+        background-color: #75b035 !important;
+    }
+    .w-22 {
+        background-color: #75b035 !important;
+    }
+    .w-23 {
+        background-color: #75b035 !important;
+    }
+    .w-24 {
+        background-color: #75b035 !important;
+    }
+    .w-25 {
+        background-color: #75b035 !important;
+    }
+    .w-26 {
+        background-color: #75b035 !important;
+    }
+    .w-27 {
+        background-color: #75b035 !important;
+    }
+    .w-28 {
+        background-color: #75b035 !important;
+    }
+    .w-29 {
+        background-color: #75b035 !important;
+    }
+    .w-30 {
+        background-color: #75b035 !important;
+    }
+    .w-31 {
+        background-color: #75b035 !important;
+    }
+    .w-32 {
+        background-color: #75b035 !important;
+    }
+    .w-33 {
+        background-color: #75b035 !important;
+    }
+    .w-34 {
+        background-color: #75b035 !important;
+    }
+    .w-35 {
+        background-color: #75b035 !important;
+    }
+    .w-36 {
+        background-color: #75b035 !important;
+    }
+    .w-37 {
+        background-color: #75b035 !important;
+    }
+    .w-38 {
+        background-color: #75b035 !important;
+    }
+    .w-39 {
+        background-color: #75b035 !important;
+    }
+    .w-40 {
+        background-color: #75b035 !important;
+    }
+    .w-41 {
+        background-color: #b9ac15 !important;
+    }
+    .w-42 {
+        background-color: #b9ac15 !important;
+    }
+    .w-43 {
+        background-color: #b9ac15 !important;
+    }
+    .w-44 {
+        background-color: #b9ac15 !important;
+    }
+    .w-45 {
+        background-color: #b9ac15 !important;
+    }
+    .w-46 {
+        background-color: #b9ac15 !important;
+    }
+    .w-47 {
+        background-color: #b9ac15 !important;
+    }
+    .w-48 {
+        background-color: #b9ac15 !important;
+    }
+    .w-49 {
+        background-color: #b9ac15 !important;
+    }
+    .w-50 {
+        background-color: #b9ac15 !important;
+    }
+    .w-51 {
+        background-color: #b9ac15 !important;
+    }
+    .w-52 {
+        background-color: #b9ac15 !important;
+    }
+    .w-53 {
+        background-color: #b9ac15 !important;
+    }
+    .w-54 {
+        background-color: #b9ac15 !important;
+    }
+    .w-55 {
+        background-color: #b9ac15 !important;
+    }
+    .w-56 {
+        background-color: #b9ac15 !important;
+    }
+    .w-57 {
+        background-color: #b9ac15 !important;
+    }
+    .w-58 {
+        background-color: #b9ac15 !important;
+    }
+    .w-59 {
+        background-color: #b9ac15 !important;
+    }
+    .w-60 {
+        background-color: #b9ac15 !important;
+    }
+    .w-61 {
+        background-color: #fb8310 !important;
+    }
+    .w-62 {
+        background-color: #fb8310 !important;
+    }
+    .w-63 {
+        background-color: #fb8310 !important;
+    }
+    .w-64 {
+        background-color: #fb8310 !important;
+    }
+    .w-65 {
+        background-color: #fb8310 !important;
+    }
+    .w-66 {
+        background-color: #fb8310 !important;
+    }
+    .w-67 {
+        background-color: #fb8310 !important;
+    }
+    .w-68 {
+        background-color: #fb8310 !important;
+    }
+    .w-69 {
+        background-color: #fb8310 !important;
+    }
+    .w-70 {
+        background-color: #fb8310 !important;
+    }
+    .w-71 {
+        background-color: #fb8310 !important;
+    }
+    .w-72 {
+        background-color: #fb8310 !important;
+    }
+    .w-73 {
+        background-color: #fb8310 !important;
+    }
+    .w-74 {
+        background-color: #fb8310 !important;
+    }
+    .w-75 {
+        background-color: #fb8310 !important;
+    }
+    .w-76 {
+        background-color: #fb8310 !important;
+    }
+    .w-77 {
+        background-color: #fb8310 !important;
+    }
+    .w-78 {
+        background-color: #fb8310 !important;
+    }
+    .w-79 {
+        background-color: #fb8310 !important;
+    }
+    .w-80 {
+        background-color: #fb8310 !important;
+    }
+    .w-81 {
+        background-color: #b71823 !important;
+    }
+    .w-82 {
+        background-color: #b71823 !important;
+    }
+    .w-83 {
+        background-color: #b71823 !important;
+    }
+    .w-84 {
+        background-color: #b71823 !important;
+    }
+    .w-85 {
+        background-color: #b71823 !important;
+    }
+    .w-86 {
+        background-color: #b71823 !important;
+    }
+    .w-87 {
+        background-color: #b71823 !important;
+    }
+    .w-88 {
+        background-color: #b71823 !important;
+    }
+    .w-89 {
+        background-color: #b71823 !important;
+    }
+    .w-90 {
+        background-color: #b71823 !important;
+    }
+    .w-91 {
+        background-color: #b71823 !important;
+    }
+    .w-92 {
+        background-color: #b71823 !important;
+    }
+    .w-93 {
+        background-color: #b71823 !important;
+    }
+    .w-94 {
+        background-color: #b71823 !important;
+    }
+    .w-95 {
+        background-color: #b71823 !important;
+    }
+    .w-96 {
+        background-color: #b71823 !important;
+    }
+    .w-97 {
+        background-color: #b71823 !important;
+    }
+    .w-98 {
+        background-color: #b71823 !important;
+    }
+    .w-99 {
+        background-color: #b71823 !important;
+    }
+    .w-100 {
+        background-color: #b71823 !important;
+    }
+}
